@@ -1,0 +1,22 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.headCss{
+	font-size: 12px;
+}
+
+.tableCss{
+	border: 1px;
+	border-collapse:collapse;
+	padding: 30px;
+	
+}
+
+
+
