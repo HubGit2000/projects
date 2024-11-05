@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Projects</title>
+    <link   rel="stylesheet" href="mystyles.css">
+    <script                   src="myscripts.js"></script>
+</head>
+<!-- https://www.youtube.com/watch?v=OltY8JIaP-4 -->
+<!-- https://www.w3schools.com/howto/howto_js_tab_img_gallery.asp -->
+
+<body>
+    <table class="tableCss" border="1">
+        <tr><td colspan="5" align="center" class="listCss"><b>Project List</b> (partial)</td></tr>
+        <tr><td colspan="5"><img id="imgPopup" src="" class="cssPopup" onclick="imgHide()" />&nbsp;</td></tr>
+        <tr><td colspan="5" align="center" class="headCss"><b>Salesforce LWC Basic Projects</b></td></tr>
+        <tr><td colspan="5" align="center">(Ordered by complexity)</td></tr>
+        <!--  ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo  -->
+        <tr valign="top" align="center">
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/bmi-calculator"    target="_blank">BMI Calculator</a></td>
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/alarm-clock"       target="_blank">Alarm Clock</a></td>
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/currency-exchange" target="_blank">Currency Exchange</a></td>
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/stop-watch"        target="_blank">Stop Watch</a></td>
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/city-weather"      target="_blank">City Weather</a></td>   
+                     
+        </tr>
+
+        <tr valign="top" align="center">
+            <!--td><img src="thumb/bmi-calculator.gif"    onmouseover="imgBig(this)" onmouseout="imgSmall(this)" alt="BMI Calculator"></td-->
+            <td><img src="thumb/bmi-calculator.gif"    onclick="imgBig(this)" alt="BMI Calculator"></td>
+            <td><img src="thumb/alarm-clock.gif"       onclick="imgBig(this)" alt="Alarm Clock"></td>
+            <td><img src="thumb/currency-exchange.gif" onclick="imgBig(this)" alt="Currency Exchange"></td>
+            <td><img src="thumb/stop-watch.gif"        onclick="imgBig(this)" alt="Stop Watch"></td>
+            <td><img src="thumb/city-weather.gif"      onclick="imgBig(this)" alt="City Weather"></td>            
+        </tr>
+
+        <tr valign="top">
+            <td>LWR, LWC, JS logic.</td>
+            <td>Reusable/parent/child<br>comps, animation, <br>sound etc.</td>
+            <td>Client API, Styling <br>hooks, Combobox, <br>Service Comp etc.</td>
+            <td>SetInterval, local <br>storage, dynamic <br>state etc.</td>
+            <td>Lwc to Apex calling, <br>Lwc Data binding <br>hide/show etc.</td>            
+        </tr>
+        <tr><td colspan="5">&nbsp;</td></tr>
+        <!--  ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo  -->
+        <tr><td colspan="5" align="center" class="headCss"><b>Salesforce LWC Oss/LWR Project</b></td></tr>
+        <tr valign="top">
+            <td rowspan="2" align="center">
+                <a href="video/video_honda.html" target="_blank">
+                    Honda Video 0:01:09<br><img src="thumb/honda_0_video.gif" alt="Honda Video"></a>
+            </td>
+            <td colspan="4">
+                LWC OSS, LWR, Routing, Layout Template, SLDS Styling, Lead triggered email,<br> 
+                Server-side routing, Dynamic routes, Modal, Animattion(through setInterval()).
+            </td>
+        </tr>
+        <tr valign="top">
+            <td colspan="4">
+                <table>
+                    <tr class="thumbCss">
+                        <td><img src="thumb/honda_1.gif" onclick="imgBig(this)" alt="Honda Home Page"><br>Home Page</td>
+                        <td><img src="thumb/honda_2.gif" onclick="imgBig(this)" alt="Honda Home Page"><br>Default Car</td>
+                        <td><img src="thumb/honda_3.gif" onclick="imgBig(this)" alt="Honda Home Page"><br>Selected Car</td>
+                        <td><img src="thumb/honda_4.gif" onclick="imgBig(this)" alt="Honda Home Page"><br>Web-to-Lead</td>
+                        <td><img src="thumb/honda_5.gif" onclick="imgBig(this)" alt="Honda Home Page"><br>Email Templete</td>
+                        <td><img src="thumb/honda_6.gif" onclick="imgBig(this)" alt="Honda Home Page"><br>VS Code</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+   
+</body>
+</html>

@@ -1,0 +1,40 @@
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: lightblue;
+	/*
+	table-layout: fixed;
+    width: 450px;
+	*/
+}
+
+.tableCss{
+	border: 1px;
+	border-collapse:collapse;
+	padding: 30px;
+	
+}
+
+.listCss{
+	font-size: 16px;
+}
+
+.headCss{
+	font-size: 12px;
+	color: red;
+}
+
+
+.thumbCss{
+	font-size: 9px;
+	vertical-align: top;
+	text-align: center;
+}
+
+.cssPopup {
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	cursor: pointer;
+}
