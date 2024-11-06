@@ -1,29 +1,42 @@
+/* https://www.w3schools.com/html/html_table_borders.asp */
+
 body {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	background-color: lightblue;
+	background-color: #666666;
 	/*
 	table-layout: fixed;
     width: 450px;
 	*/
 }
 
+
+/* AliceBlue lemonchiffon #888888 777777*/
 .tableCss{
-	border: 1px;
-	border-collapse:collapse;
-	padding: 30px;
-	
+	background-color: AliceBlue;
+	border: 1px solid #888888; 
+	border-collapse: collapse;
+	/*
+	border: 1px solid white;
+	border-collapse: collapse;
+	*/
 }
 
 .listCss{
 	font-size: 16px;
 }
 
-.headCss{
-	font-size: 12px;
+.headRedCss{
+	font-size: 13px;
 	color: red;
+	font-weight: bold;
 }
 
+.headBlueCss{
+	font-size: 12px;
+	color: blue;
+	font-weight: bold;
+}
 
 .thumbCss{
 	font-size: 9px;
@@ -31,10 +44,36 @@ body {
 	text-align: center;
 }
 
-.cssPopup {
+.popupCss {
 	position: absolute;
 	left: 10px;
 	top: 10px;
 	z-index: 1;
 	cursor: pointer;
 }
+
+
+.breakCss {
+	background-color: DeepSkyBlue;  /* royalblue #777777*/
+	height: 0px;
+}
+
+/* AntiqueWhite PaleTurquoise LightCyan PaleGreen lightgreen SpringGreen MediumSpringGreen LightPink Ivory 99FFFF 66CCFF #CCCCCC*/
+
+.trCss1{
+	background-color: PaleTurquoise;  
+}
+
+.trCss2{
+	background-color: AntiqueWhite;  
+}
+.trCss3{
+	background-color: PaleTurquoise;  
+
+}
+.trCss4{
+	background-color: AntiqueWhite;   
+}
+/*
+*/
+
