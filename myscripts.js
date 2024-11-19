@@ -1,14 +1,14 @@
-function imgBig(obj) {      
+function imgBig(obj, id_no) {      
     src = obj.src                         //thumb/bmi-calculator.gif
     src = src.replace("thumb", "image");  //image/bmi-calculator.gif
     //obj.src = src   
     //alert(src)
-    let image = document.getElementById("imgPopup");
+    let image = document.getElementById("imgPopup" + id_no); //imgPopup1, imgPopup2
     image.src = src 
 }
 
-function imgHide() {
-    let image = document.getElementById("imgPopup");
+function imgHide(id_no) {
+    let image = document.getElementById("imgPopup" + id_no);
     image.src =""
 }
 
