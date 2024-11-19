@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference Video</title>
+    <link rel="stylesheet" href="video_styles.css" />
+</head>
+
+<body>
+    <div class="background"></div>
+    <button id="popup">Watch Conference Video<br><br>(Length: 0:01:23)</button>
+    <div id="videoPopup1" class="popup">
+        <div class="popup-content">
+            <span>&nbsp;&nbsp;</span><span class="close" id="close">×</span>
+            <!-- thumb w = 126 -->
+            <!-- video original: 1080 x 848, use: 0.75 -->
+            <iframe width="810" height="636" src="video_conference.mp4" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="video_scripts.js"></script>
+</body>
+
+</html>
