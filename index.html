@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mr. Gao Projects</title>
+    <link   rel="stylesheet" href="mystyles.css">
+    <script                   src="myscripts.js"></script>
+</head>
+
+<body>
+    <table class="tableCss" border="1">
+        <tr><td colspan="5" class="breakCss"></td></tr>
+        <tr><td colspan="5" align="center" class="listCss"><b>Project List</b></td></tr>
+        <tr><td colspan="5" class="breakCss"></td></tr>
+        <tr><td colspan="5"><img id="imgPopup1" src="" class="popupCss" onclick="imgHide(1)" /></td></tr>    
+        
+        <!--  ooooooooooooooooooooooooooooo Javascript Start ooooooooooooooooooooooooooooooo  (partial)  -->
+        <!--tr><td colspan="5" class="breakCss"></td></tr-->
+        <tr class="trCss1"><td colspan="5" align="center"><span class="headRedCss">Javascript Project</span></td></tr> 
+        <tr class="trCss1" valign="top" align="center">
+            <!--td><a href="js/yearly_calendar.html" target="_blank">Yearly Calendar</a></td-->
+            <td><a href="js_video/video_yearly_calendar.html" target="_blank">Short Video 0:00:58</a></td>
+            <td>Yearly Calendar</td>
+            <td colspan="3" rowspan="2" align="left" class="subNoteCssBlack">   
+                1. The calendar is used to figure out the end date of an assignment<br>
+                    &nbsp;&nbsp;&nbsp; based on the number of weeks(default 13) and start date.<br>
+                2. Default date is today, days in duration are highlighted in yellow.<br>
+                3. The highlight portion will shift according to the newly selected <br>
+                    &nbsp;&nbsp;&nbsp; start date, and back/forward arrow buttons. <br>
+                4. The end date must not pass same week's Friday, although this <br>
+                    &nbsp;&nbsp;&nbsp; may cause a shorter duration, unless it lands on the next Monday<br>
+                    &nbsp;&nbsp;&nbsp; through Thursday. <span class="subNoteCssOrg">(Note: A real app. of my past freelance job.)</span>
+            </td>
+        </tr>
+        <tr class="trCss1" valign="top" align="center">
+            <td><a href="js_video/video_yearly_calendar.html" target="_blank"><img src="js_video/video_yearly_calendar.gif" alt="Yearly Calendar"></a></td>
+            <td><table class="tableImageCss">
+                    <tr class="thumbCss" valign="top" align="center">
+                        <td>Page<br><img src="js_thumb/yearly_calendar_1.gif" onclick="imgBig(this, 1)" border="1"></td>
+                        <td>HTML<br><img src="js_thumb/yearly_calendar_2.gif" onclick="imgBig(this, 1)"></td>
+                    <tr class="thumbCss" valign="top" align="center">
+                        <td>JS<br>  <img src="js_thumb/yearly_calendar_3.gif" onclick="imgBig(this, 1)"></td>
+                        <td>CSS<br> <img src="js_thumb/yearly_calendar_4.gif" onclick="imgBig(this, 1)"></td>
+                    </tr>                   
+                </table>        
+            </td>   
+        </tr>        
+        <!--  ooooooooooooooooooooooooooooo LWC Basic Start ooooooooooooooooooooooooooooooo  -->
+        <tr class="trCss2"><td colspan="5" align="center"><span class="headRedCss">Salesforce LWC Basic Projects</span><br>(Ordered by Complexity)</td></tr>
+        <tr class="trCss2"  valign="top" align="center">
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/bmi-calculator"    target="_blank">BMI Calculator</a></td>
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/alarm-clock"       target="_blank">Alarm Clock</a></td>
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/currency-exchange" target="_blank">Currency Exchange</a></td>
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/stop-watch"        target="_blank">Stop Watch</a></td>
+            <td><a href="https://goldfish6-dev-ed.develop.my.site.com/city-weather"      target="_blank">City Weather</a></td>             
+        </tr>
+
+        <tr class="trCss2" valign="top" align="center">
+            <!--td><img src="thumb/bmi-calculator.gif"    onmouseover="imgBig(this)" onmouseout="imgSmall(this)" alt="BMI Calculator"></td-->
+            <td><img src="thumb_lwc_basic/bmi-calculator.gif"    onclick="imgBig(this, 1)" alt="BMI Calculator"></td>
+            <td><img src="thumb_lwc_basic/alarm-clock.gif"       onclick="imgBig(this, 1)" alt="Alarm Clock"></td>
+            <td><img src="thumb_lwc_basic/currency-exchange.gif" onclick="imgBig(this, 1)" alt="Currency Exchange"></td>
+            <td><img src="thumb_lwc_basic/stop-watch.gif"        onclick="imgBig(this, 1)" alt="Stop Watch"></td>
+            <td><img src="thumb_lwc_basic/city-weather.gif"      onclick="imgBig(this, 1)" alt="City Weather" border="1"></td>            
+        </tr>
+
+        <tr class="trCss2" valign="top">
+            <td>LWR, LWC, JS logic.</td>
+            <td>Reusable/parent/child<br>comps, animation, <br>sound etc.</td>
+            <td>Client API, Styling <br>hooks, Combobox, <br>Service Comp etc.</td>
+            <td>SetInterval, local <br>storage, dynamic <br>state etc.</td>
+            <td>Lwc to Apex calling, <br>Lwc Data binding <br>hide/show etc.</td>            
+        </tr>
+        <!--tr><td colspan="5" class="breakCss"></td></tr-->
+        <tr><td colspan="5"><img id="imgPopup2" src="" class="popupCss" onclick="imgHide(2)" /></td></tr> 
+        <!--  ooooooooooooooooooooooooooooo Flow Project: Property oooooooooooooooooo  -->
+        <!--tr><td colspan="5" class="breakCss"></td></tr-->
+        <tr class="trCss3"><td colspan="5" align="center"><span class="headRedCss">Salesforce Flow Project</span><br>
+                    <span class="headBlueCss">Property &bull; Loan &bull; Lead</span></span><br>
+                    <table>
+                        <tr class="subNoteCssOrg"><td align="right">Flow: </td><td>Record-Triggered Loan Payment Due Day Email Alert: 1 or 5 days before, due today, overdue by 1 day.</td></tr>
+                        <tr class="subNoteCssOrg"><td align="right">Trigger:</td><td>Changing <font color="blue">Property Type</font> from 'Commercial' to "Residential" will trigger <font color="blue">Commercial</font> from 'Office' to "Shop".</td></tr>
+                        <tr class="subNoteCssOrg"><td align="right">Formula:</td><td class="subNoteCssFormula">(Loan_Repayment__c*(((1+(Interest_Rate__c/52))^Term__c)-1))/((Interest_Rate__c/52)*((1+(Interest_Rate__c/52))^Term__c))</td></tr>
+                    </table>
+            </td></tr>
+        <tr class="trCss3" valign="top">
+            <td rowspan="2" align="center">
+                <a href="videos/video_flow_property.html" target="_blank">Flow Proj. 0:01:31<br><img src="videos/video_flow_property.gif" alt="Flow Property Video"></a>
+            </td>
+            <td colspan="4"> 
+                No LWC, Aura, or Visualforce. Pure Salesforce Syatem setting up.<br>
+            </td>
+        </tr>
+        <tr class="trCss3" valign="top">
+            <td colspan="4">
+                <table>
+                    <tr class="thumbCss">
+                        <td><img src="thumb_flow_property/flow_property_1.gif" onclick="imgBig(this, 1)" alt="Record Triggered Flow" border="1"><br>Record<br>Triggered<br>Flow</td>
+                        <td><img src="thumb_flow_property/flow_property_2.gif" onclick="imgBig(this, 1)" alt="Schema"><br>Schema</td>
+                        <td><img src="thumb_flow_property/flow_property_3.gif" onclick="imgBig(this, 1)" alt="Property"><br>Property</td>
+                        <td><img src="thumb_flow_property/flow_property_4.gif" onclick="imgBig(this, 1)" alt="Loan"><br>Loan</td>
+                        <td><img src="thumb_flow_property/flow_property_5.gif" onclick="imgBig(this, 1)" alt="Lead"><br>Lead</td>
+                        <td><img src="thumb_flow_property/flow_property_6.gif" onclick="imgBig(this, 1)" alt="Trigger"><br>Trigger</td>
+                        <td><img src="thumb_flow_property/flow_property_7.gif" onclick="imgBig(this, 1)" alt="Class/Method"><br>Class/Method</td>
+                    </tr>
+                </table>
+            </td>
+        </tr> 
+        <!--tr><td colspan="5" class="breakCss"></td></tr-->       
+        <!--  ooooooooooooooooooooooooooooo Honda Start ooooooooooooooooooooooooooooooo  -->
+        <tr class="trCss1"><td colspan="5" align="center"><span class="headRedCss">LWC Oss/LWR Project</span><br>
+                <span class="headBlueCss">Build Your Car &bull; Color, Features, Price &bull; Inquiry</span><br>
+                <span class="subNoteCss">Customer can pick car color, select trim package, and fill out an inquiry form.<br>
+                                        The salesforce system will create a new lead and send out confirmation email to the customer.</span></td></tr>
+        <tr class="trCss1" valign="top">
+            <td rowspan="2" align="center">
+                <a href="videos/video_honda.html" target="_blank">Honda 0:01:09<br><img src="videos/video_honda.gif" alt="Honda Video"></a>
+            </td>
+            <td colspan="4">
+                LWC OSS, LWR, Routing, Layout Template, SLDS Styling, Lead triggered email,<br> 
+                Server-side routing, Dynamic routes, Modal, Animation(through setInterval()).
+            </td>
+        </tr>
+        <tr class="trCss1" valign="top">
+            <td colspan="4">
+                <table>
+                    <tr class="thumbCss">
+                        <td><img src="thumb_honda/honda_1.gif" onclick="imgBig(this, 1)" alt="Honda Home Page"><br>Home Page</td>
+                        <td><img src="thumb_honda/honda_2.gif" onclick="imgBig(this, 1)" alt="Default Car"><br>Default Car</td>
+                        <td><img src="thumb_honda/honda_3.gif" onclick="imgBig(this, 1)" alt="Selected Car"><br>Selected Car</td>
+                        <td><img src="thumb_honda/honda_4.gif" onclick="imgBig(this, 1)" alt="Web-to-Lead"><br>Web-to-Lead</td>
+                        <td><img src="thumb_honda/honda_5.gif" onclick="imgBig(this, 1)" alt="Email Templete"><br>Email Template</td>
+                        <td><img src="thumb_honda/honda_6.gif" onclick="imgBig(this, 1)" alt="VS Code"><br>VS Code</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>       
+        <tr><td colspan="5"><img id="imgPopup3" src="" class="popupCss" onclick="imgHide(3)" /></td></tr> 
+        <!--  ooooooooooooooooooooooooooooo LWC Project: Car Hub Start oooooooooooooooooo  -->    
+        <!--tr><td colspan="5" class="breakCss"></td></tr-->         
+        <tr class="trCss2"><td colspan="5" align="center">
+                    <span class="headRedCss">LWC Project</span><br>
+                    <span class="headBlueCss">Car Dealer Inventory</span><br>
+                    <span class="subNoteCss">User can search car inventory by name, price range, category, or make.<br>  
+                                            Details are available once a car is selected.
+                                            New car info can be added into the inventory.</span></td></tr>
+        <tr class="trCss2" valign="top">
+            <td rowspan="2" align="center">
+                <a href="videos/video_carhub.html" target="_blank">Car Hub 0:01:28<br><img src="videos/video_carhub.gif" alt="Carhub Video"></a>
+            </td>
+            <td colspan="4"> 
+                LDS, Imperative Apex calling, Wire adaptor/functions calling, Styling, looping,<br> 
+                properties handling, Parent-Child data passing, Import car record (from excel),<br>
+                Placeholder component, Message service, Static resources and data loading/filtering
+            </td>
+        </tr>
+        <tr class="trCss2" valign="top">
+            <td colspan="4">
+                <table>
+                    <tr class="thumbCss">
+                        <td><img src="thumb_carhub/carhub_1.gif" onclick="imgBig(this, 2)" alt="Carhub Home Page"><br>Home Page</td>
+                        <td><img src="thumb_carhub/carhub_2.gif" onclick="imgBig(this, 2)" alt="Search Car"><br>Search Car</td>
+                        <td><img src="thumb_carhub/carhub_3.gif" onclick="imgBig(this, 2)" alt="Select Car"><br>Select Car</td>
+                        <td><img src="thumb_carhub/carhub_4.gif" onclick="imgBig(this, 2)" alt="Car Details"><br>Car Details</td>
+                        <td><img src="thumb_carhub/carhub_5.gif" onclick="imgBig(this, 2)" alt="Similar Cars"><br>Similar Cars</td>
+                        <td><img src="thumb_carhub/carhub_6.gif" onclick="imgBig(this, 2)" alt="New Car"><br>New Car</td>
+                        <td><img src="thumb_carhub/carhub_7.gif" onclick="imgBig(this, 2)" alt="VS Code"><br>VS Code</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!--  ooooooooooooooooooooooooooooo Aura Rental Property Start ooooooooooooooooo  -->
+        <!--tr><td colspan="5" class="breakCss"></td></tr-->
+        <tr><td colspan="5"><img id="imgPopup4" src="" class="popupCss" onclick="imgHide(4)" /></td></tr> 
+        <tr class="trCss3"><td colspan="5" align="center"><span class="headRedCss">Aura Project</span><br>
+                <span class="headBlueCss">Rental Property &bull; Owner &bull; Inquiry</span><br>
+                <span class="subNoteCss">User can find home for rent by searching city name, number bedroom and bathroom, or price range.<br> 
+                                        Owner and Property details are also provided, User can also contact home owner through inquiry form.</span></td></tr>
+        <tr class="trCss3" valign="top">
+            <td rowspan="2" align="center">
+                <a href="videos/video_aura_property.html" target="_blank">Property 0:01:18<br><img src="videos/video_aura_property.gif" alt="property Video"></a>
+            </td>
+            <td colspan="4">
+                Apex classes, Custom Controller, Aura Lightning Components, JS Server Calls,<br> 
+                LDS(Lightning Data Service), Data Import Wizard, Record View/Edit Form,<br>  
+                Modal w/ Nested Component, Component Event, Master Tab Details Navigate.
+            </td>
+        </tr>
+        <tr class="trCss3" valign="top">
+            <td colspan="4">
+                <table>
+                    <tr class="thumbCss">
+                        <td><img src="thumb_aura_property/aura_property_1.gif" onclick="imgBig(this, 2)" alt="Property List"><br>Property List</td>
+                        <td><img src="thumb_aura_property/aura_property_2.gif" onclick="imgBig(this, 2)" alt="Owner"><br>Owner</td>
+                        <td><img src="thumb_aura_property/aura_property_3.gif" onclick="imgBig(this, 2)" alt="Inquiry"><br>Inquiry</td>
+                        <td><img src="thumb_aura_property/aura_property_4.gif" onclick="imgBig(this, 2)" alt="Property Details"><br>Property Details</td>
+                        <td><img src="thumb_aura_property/aura_property_5.gif" onclick="imgBig(this, 2)" alt="Video"><br>Video</td>
+                        <td><img src="thumb_aura_property/aura_property_6.gif" onclick="imgBig(this, 2)" alt="Schema"><br>Schema</td>
+                        <td><img src="thumb_aura_property/aura_property_7.gif" onclick="imgBig(this, 2)" alt="VS Code"><br>VS Code</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <!--  ooooooooooooooooooooooooooooo Visualforce Project: Conference Management Start ooooooooooooooooo  -->
+        <!--tr><td colspan="5" class="breakCss"></td></tr-->
+        <tr><td colspan="5"><img id="imgPopup5" src="" class="popupCss" onclick="imgHide(5)" /></td></tr> 
+        <tr class="trCss1"><td colspan="5" align="center"><span class="headRedCss">Visualforce Project</span><br>
+                <span class="headBlueCss">Conference Management: &nbsp; Sessions &bull; Speakers &bull; Hotels</span><br>
+                <span class="subNoteCss">Operators can create new conference sessions, add speakers, and provide nearby <br>
+                                         hotel info (shown on a map around the Conference Center). Double booking at the same time will be <br>
+                                         blocked by the salesforce system through class and trigger when adding a session for the same speaker again.</span></td></tr>
+        <tr class="trCss1" valign="top">
+            <td rowspan="2" align="center">
+                <a href="videos/video_conference.html" target="_blank">Conference 0:01:23<br><br><img src="videos/video_conference.gif" alt="Conference Video"></a>
+            </td>
+            <td colspan="4">
+                Apex class, Trigger, Class testing, Controller Extension, Custom Controller<br> 
+                REST/SOAP Webservices, Javascript remote calls, Google Map API(for hotel),<br>
+                Custom form replacement, nearby hotel remotely invoked,image upload ,<br>
+                Double booking rejection, std controller replacement, Signup email notice.
+                
+            </td>
+        </tr>
+        <tr class="trCss1" valign="top">
+            <td colspan="4">
+                <table>
+                    <tr class="thumbCss">
+                        <td><img src="thumb_conference/conference_1.gif" onclick="imgBig(this, 3)" alt="Schema"><br>Schema</td>
+                        <td><img src="thumb_conference/conference_2.gif" onclick="imgBig(this, 3)" alt="Sessions"><br>Sessions</td>
+                        <td><img src="thumb_conference/conference_3.gif" onclick="imgBig(this, 3)" alt="Hotels"><br>Hotels</td>                           
+                        <td><img src="thumb_conference/conference_4.gif" onclick="imgBig(this, 3)" alt="Speakers"><br>Speakers</td>                   
+                        <td><img src="thumb_conference/conference_5.gif" onclick="imgBig(this, 3)" alt="Speaker Details"><br>Speaker Details</td>
+                        <td><img src="thumb_conference/conference_6.gif" onclick="imgBig(this, 3)" alt="Map"><br>Hotel Map</td>
+                        <td><img src="thumb_conference/conference_7.gif" onclick="imgBig(this, 3)" alt="VS Code"><br>VS Code</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+
+        <!--  ooooooooooooooooooooooooooooo Python Start ooooooooooooooooooooooooooooooo Wiki Goldfish -->
+        <!--tr><td colspan="5" class="breakCss"></td></tr-->
+        <tr class="trCss2"><td colspan="5" align="center"><span class="headRedCss">Python Projects</span><br>(Ordered by Complexity)</td></tr>  
+        <tr class="trCss2" valign="top" align="center">
+            <td><a href="https://hubgit2000.github.io/Py0104_Login_GUI_Tkinter_PyMySQL/"      target="_blank">Login System<br>GUI Tkinter MySQL</a></td>
+            <td><a href="https://hubgit2000.github.io/Py0112_Login_Web_Flask_MySQL_JS/"       target="_blank">Login (Web)<br>Flask Javascript SQL</a></td>
+            <td><a href="https://hubgit2000.github.io/Py0132_Django_Articles_Wiki_Goldfish/"  target="_blank">Wiki Goldfish Articles<br>Django JS Sqlite3</a></td>
+            <td><a href="https://hubgit2000.github.io/Py0131_Django_Login_Admin_Sqlite3/"     target="_blank">HR Admin. Sys.<br>Django JS Sqlite3</a></td>            
+            <td><a href="https://hubgit2000.github.io/Py0204_Scrapy_JS_Website_Using_Splash/" target="_blank">Scraping JS website<br>using Splash</a></td>            
+        </tr>
+        <tr class="trCss2" valign="top" align="center">
+            <td><table class="tableImageCss">
+                    <tr valign="top">
+                        <td><a href="py_videos/Py0104_video.html" target="_blank"><img src="py_videos/Py0104_video.gif" alt="Tkinter Video"></a></td>
+                        <td><img src="py_thumb/Py0104_1.gif" onclick="imgBig(this, 4)"></td>
+                        <td><img src="py_thumb/Py0104_2.gif" onclick="imgBig(this, 4)"></td>
+                    </tr>
+                </table>        
+            </td>
+            <td><table class="tableImageCss">
+                <tr valign="top">
+                    <td><a href="py_videos/Py0112_video.html" target="_blank"><img src="py_videos/Py0112_video.gif" alt="Flask Video"></a></td>
+                    <td><img src="py_thumb/Py0112_1.gif" onclick="imgBig(this, 5)"></td>
+                    <td><img src="py_thumb/Py0112_2.gif" onclick="imgBig(this, 5)"></td>
+                </tr>
+                </table>        
+            </td>
+            <td><table class="tableImageCss">
+                <tr valign="top">
+                    <td><img src="py_thumb/Py0132_1.gif" onclick="imgBig(this, 5)"></td>
+                    <td><img src="py_thumb/Py0132_2.gif" onclick="imgBig(this, 2)"></td>
+                    <td><img src="py_thumb/Py0132_3.gif" onclick="imgBig(this, 3)"></td>
+                </tr>
+                </table>        
+            </td>
+            <td><table class="tableImageCss">
+                <tr valign="top">
+                    <td><img src="py_thumb/Py0131_1.gif" onclick="imgBig(this, 5)"></td>
+                    <td><img src="py_thumb/Py0131_2.gif" onclick="imgBig(this, 4)"></td>
+                    <td><img src="py_thumb/Py0131_3.gif" onclick="imgBig(this, 3)"></td>
+                </tr>
+                </table>        
+            </td>              
+            <td><table class="tableImageCss">
+                <tr valign="top">
+                    <td><img src="py_thumb/Py0204_1.gif" onclick="imgBig(this, 3)"></td>
+                    <td><img src="py_thumb/Py0204_2.gif" onclick="imgBig(this, 3)"></td>
+                    <td><img src="py_thumb/Py0204_3.gif" onclick="imgBig(this, 3)"></td>
+                </tr>
+                </table>        
+            </td>        
+        </tr>
+
+
+
+        <!--  ooooooooooooooooooooooooooooo Footer Start ooooooooooooooooooooooooooooooo  -->
+        <tr><td colspan="5" class="breakCss"></td></tr>
+        <tr><td colspan="5" align="center"><span class="headBlueCss">Thanks for Watching!</span>
+                                           <img src="mysmiley.gif" alt="Smile!" width="30" style="vertical-align:middle">
+                                           <span class="headBlueCss">Have a Great One!</span>
+        </td></tr>
+        <tr><td colspan="5" class="breakCss"></td></tr>
+        <!--tr><td colspan="5"></td></tr-->
+
+
+    </table>
+</body>
+</html>
